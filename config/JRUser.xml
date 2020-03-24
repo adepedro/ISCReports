@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<UsersExport>
+  <Users>
+    <AccountNeverExpires>true</AccountNeverExpires>
+    <AutheEnabled>0</AutheEnabled>
+    <ChangePassword>false</ChangePassword>
+    <CreateDateTime>65458,30192.096037</CreateDateTime>
+    <CreateUsername>_SYSTEM</CreateUsername>
+    <Enabled>true</Enabled>
+    <ExpirationDate>1840-12-31</ExpirationDate>
+    <Flags>1</Flags>
+    <FullName>JReport connection </FullName>
+    <HOTPKey>kjz6MIuVTTOUgVZpv8gBqBbH1XU=</HOTPKey>
+    <HOTPKeyGenerate>false</HOTPKeyGenerate>
+    <HOTPKeyDisplay>false</HOTPKeyDisplay>
+    <LastModifiedDateTime>65458,30202.839414</LastModifiedDateTime>
+    <LastModifiedInfo>
+Roles modified:
+  New value: %DB_JRPROFILING,%DB_JRREALMDB,%DB_JRSYSTEM,%SQL
+  Old value: 
+</LastModifiedInfo>
+    <LastModifiedUsername>_SYSTEM</LastModifiedUsername>
+    <Name>jruser</Name>
+    <NameSpace>JRSYSTEM</NameSpace>
+    <Password>KP9BJOH2CzhXe6N+tDVVyKxNLbg=</Password>
+    <PasswordNeverExpires>true</PasswordNeverExpires>
+    <PasswordChangedDateTime>65458,30192.096058</PasswordChangedDateTime>
+    <Roles>
+      <RolesItem>%DB_JRPROFILING</RolesItem>
+      <RolesItem>%DB_JRREALMDB</RolesItem>
+      <RolesItem>%DB_JRSYSTEM</RolesItem>
+      <RolesItem>%SQL</RolesItem>
+    </Roles>
+    <Salt>DbyPdHq6eo0=</Salt>
+  </Users>
+  <SQLRoleGrantOption>
+    <UserOrRole>jruser</UserOrRole>
+    <RoleGranted>%DB_JRPROFILING</RoleGranted>
+    <Grantable>0</Grantable>
+  </SQLRoleGrantOption>
+  <SQLRoleGrantOption>
+    <UserOrRole>jruser</UserOrRole>
+    <RoleGranted>%DB_JRREALMDB</RoleGranted>
+    <Grantable>0</Grantable>
+  </SQLRoleGrantOption>
+  <SQLRoleGrantOption>
+    <UserOrRole>jruser</UserOrRole>
+    <RoleGranted>%DB_JRSYSTEM</RoleGranted>
+    <Grantable>0</Grantable>
+  </SQLRoleGrantOption>
+  <SQLRoleGrantOption>
+    <UserOrRole>jruser</UserOrRole>
+    <RoleGranted>%SQL</RoleGranted>
+    <Grantable>0</Grantable>
+  </SQLRoleGrantOption>
+  <SQLAdminPrivilegeSet>
+    <Namespace>JRPROFILING</Namespace>
+    <Grantee>jruser</Grantee>
+    <CreateTable>1</CreateTable>
+    <DropTable>1</DropTable>
+  </SQLAdminPrivilegeSet>
+  <SQLAdminPrivilegeSet>
+    <Namespace>JRREALMDB</Namespace>
+    <Grantee>jruser</Grantee>
+    <CreateTable>1</CreateTable>
+    <DropTable>1</DropTable>
+  </SQLAdminPrivilegeSet>
+  <SQLAdminPrivilegeSet>
+    <Namespace>JRSYSTEM</Namespace>
+    <Grantee>jruser</Grantee>
+    <CreateTable>1</CreateTable>
+    <DropTable>1</DropTable>
+  </SQLAdminPrivilegeSet>
+</UsersExport>
